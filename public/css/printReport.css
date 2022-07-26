@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap');
+body {
+    font-family: 'Tajawal', sans-serif;
+}
+
+h4,
+h3 {
+    text-align: center;
+}
+
+.content {
+    width: 70% !important;
+    margin: 0 auto !important;
+}
+
+.table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    font-family: 'Tajawal', sans-serif;
+    text-align: center;
+    width: 100%;
+}
+
+.table td,
+.table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table tr:nth-child(even) {
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+.table tr:hover {
+    text-align: center;
+    background-color: #ddd;
+}
+
+.table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    color: #000 !important;
+}
+
+@media print {
+    * {
+        margin: 0 !important;
+        box-sizing: border-box !important;
+    }
+    .content {
+        width: 100% !important;
+        margin: 0 auto !important;
+    }
+    .table {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px !important;
+        border-collapse: collapse;
+        width: 100%;
+    }
+    .table td,
+    .table th {
+        border: 1px solid #ddd;
+        font-size: 12px !important;
+        padding: 8px;
+    }
+    .table tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+    .table tr:hover {
+        background-color: #ddd;
+    }
+    .table th {
+        text-align: left;
+        color: white;
+        font-size: 12px !important;
+    }
+}

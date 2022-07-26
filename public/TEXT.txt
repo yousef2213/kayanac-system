@@ -1,0 +1,16 @@
+
+{{-- <div class="content">
+<div id="app-aq"></div>
+</div> --}}
+<?php
+// echo gethostname();
+// $db = DB::connection();
+// $db->query('SHOW DATABASES');
+// dd($db);
+
+// echo DB::connection()->getDatabaseName()
+// echo $tasb = DB::select('SHOW TABLES');
+// echo $tasb;
+
+// print_r(Config::get('database'));
+?>

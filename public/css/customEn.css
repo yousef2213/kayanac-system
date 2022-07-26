@@ -1,0 +1,47 @@
+
+
+.navbar-expand-lg>.navbar-collapse {
+    display: flex !important;
+}
+.rowEn {
+    flex-direction: row-reverse !important;
+}
+
+.rowAr {
+    flex-direction: row !important;
+}
+.right-content {
+    float: left !important;
+}
+.top-left {
+    float: right !important;
+}
+.shop-section-title > h1 {
+    text-align: left !important;
+}
+.textLL {
+    text-align: left !important;
+}
+.spanL {
+    display: none !important;
+}
+.textLeftContact {
+    text-align: left !important;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.shop-section-title > h1::before {
+    left: 0 !important;
+}
+.shopping-item {
+    right: 0 !important;
+    left: inherit !important;
+}
+.tabDescEn {
+    
+}
+@media (min-width: 992px) {
+    .navbar-nav {
+        flex-direction: row-reverse !important;
+    }
+}

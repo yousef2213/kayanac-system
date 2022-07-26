@@ -1,0 +1,175 @@
+body {
+    background-color: #f6f6f6;
+    direction: rtl;
+}
+.color-main {
+    color: #1854a4;
+}
+.title.text-uppercase {
+    text-decoration-line: underline;
+    text-underline-offset: 10px;
+    text-decoration-color: #1854a4;
+}
+.btn-primary {
+    background-color: #1854a4 !important;
+}
+.box {
+    border: 1px solid #999 !important;
+    padding: 2px 20px;
+    width: 200px;
+    text-align: center;
+    align-content: center;
+}
+.span-title {
+    font-size: 20px;
+}
+.title-box {
+    width: 25%;
+    text-align: right;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.text-box {
+    text-align: right;
+    width: 90% !important;
+    margin: 0 !important;
+    padding-right: 20px;
+}
+
+.title-box-2 {
+    width: 14%;
+    padding: 0 !important;
+    text-align: right;
+    margin: 0 !important;
+}
+.text-box-2 {
+    text-align: right;
+    width: 125% !important;
+    margin: 0 !important;
+    padding-right: 20px;
+}
+
+.title-box-3 {
+    text-align: right;
+    width: 17%;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.text-box-3 {
+    text-align: right;
+    width: 81% !important;
+    margin: 0 !important;
+    padding-right: 20px;
+}
+
+.line {
+    width: 99% !important;
+    border-bottom: 1px dashed #999;
+    display: block;
+}
+
+.line2 {
+    width: 88% !important;
+    border-bottom: 1px dashed #999;
+    display: block;
+}
+
+.title-box-4 {
+    text-align: right;
+    width: 15%;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.text-box-4 {
+    text-align: right;
+    width: 85% !important;
+    margin: 0 !important;
+    padding-right: 20px;
+}
+.desc {
+    line-break: auto;
+}
+
+@media print {
+    .btn {
+        display: none !important;
+    }
+    .box {
+        border: 1px solid #999 !important;
+        padding: 2px 20px;
+        width: 200px;
+        text-align: center;
+        align-content: center;
+    }
+    .span-title {
+        font-size: 20px;
+    }
+    .title-box {
+        width: 30%;
+        text-align: right;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .text-box {
+        text-align: right;
+        width: 80% !important;
+        margin: 0 !important;
+        padding-right: 20px;
+    }
+
+    .title-box-2 {
+        width: 20%;
+        padding: 0 !important;
+        text-align: right;
+        margin: 0 !important;
+    }
+    .text-box-2 {
+        text-align: right;
+        width: 125% !important;
+        margin: 0 !important;
+        padding-right: 20px;
+    }
+
+    .title-box-3 {
+        text-align: right;
+        width: 17%;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .text-box-3 {
+        text-align: right;
+        width: 81% !important;
+        margin: 0 !important;
+        padding-right: 20px;
+    }
+
+    .line {
+        width: 99% !important;
+        border-bottom: 1px dashed #999;
+        display: block;
+    }
+
+    .line2 {
+        width: 88% !important;
+        border-bottom: 1px dashed #999;
+        display: block;
+    }
+
+    .title-box-4 {
+        text-align: right;
+        width: 15%;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .text-box-4 {
+        text-align: right;
+        width: 85% !important;
+        margin: 0 !important;
+        padding-right: 20px;
+    }
+    .desc {
+        line-break: auto;
+    }
+}

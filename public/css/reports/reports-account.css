@@ -1,0 +1,21 @@
+.report {
+    background-color: #0042a3d1 !important;
+    color: #fff !important ;
+    /* min-width: 200px !important; */
+    min-height: 100px !important;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+
+}
+.report:hover {
+    text-decoration: none;
+}
+
+.line {
+    display: inline-block;
+    width: 50px !important;
+    background-color: #0042a3d1 !important;
+    height: 2px ;
+}
